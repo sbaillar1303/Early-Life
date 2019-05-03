@@ -1,0 +1,126 @@
+print("Would you like to play?")
+print("Yes = Y No = N")
+player = input()
+
+if player == "Y":
+    print("Welcome to the Game of Life")
+
+    print("  Tom made his usual rounds to the local strip mall and on one sober and hungover day saw they had opened a new "
+      "Recruiting station next to his usual liquor store\n")
+    print("Tom has two choices: A - Do something different with his life and go to the recruiting station."
+      "  B - Go into the liquor store as usual.")
+    print("Choose A or B")
+
+
+    choice = input()
+    A = "A"
+    B = "B"
+    if choice == "A":
+        print("  Tom shakes hands with the recruiter, and as he searches through what he wants to do,\nlooks around the office"
+          "and discovers what has been going on overseas.")
+        print("As Tom thinks about the reports from the fighting, he gets both scared and angry with what is going on.\n"
+          "It only takes a few days for him to narrow down his choices.")
+        print("His three choices are: 1 - Special Forces, 2 - Explosive Ordinance Disposal, or 3 - Helicopter Maintenance")
+        print("Choose 1, 2, or 3")
+
+        choice = int(input())
+
+        if choice == 1 or choice == 2:
+                print("Training was a lot harder than Tom realized.  Days and nights blurred to one continuous dream,\n but in the end "
+                    "graduation was the most fulfilled he had ever felt\n")
+                print("  Tom transitioned into his current unit, and quicker than he had expected, orders for combat were issued.\n"
+                      "He had known that this was innevitable, but the thought still scared him.\n"
+                      "But the mission must contine, so he depolyed to a nice, warm, and sunny destination\n")
+                print("  While there he had seen a lot of stuff, things regular people shouldn't.\n"
+                      "He had many a sleepless nights and over the course of years it took a toll.\n"
+                      "Eventually he couldn't handle it anymore and lashed out while back in the States.\n"
+                      "Tom was sent to get a psych evaluation, and the results were not good.\n"
+                      "Tom had two feasable choices - 1 - Get help and have a chance to stay in\n"
+                      "2 - Take the medical discharge and make it on his own.")
+                choice = int(input())
+                if choice == 1:
+
+                    print("  Tom saw the therapist at least once a week,\n over that time Tom came to grips with"
+                            "his past.\n")
+                    print("  Tom was able to finish out and feel acomplished in his life.\n"
+                            "The retirement wasn't all that bad either.")
+
+                else:
+                        print("  Tom took the discharge and felt the Military let him down.\n"
+                                "He tried to go back to being a civilian but it was difficult.\n"
+                                "He fell back into his old habits and found himself where he started.\n")
+                        print("  But this time there was no recruiter, just the demons of his past.\n"
+                              "So Tom is now homeless, broken, and now wondering if god takes him out\n"
+                              "Before his own demons do.")
+
+
+                    #def goto(line):
+                        #line = 67
+                        #print(goto(line))
+
+        elif choice == 3:
+                print("This was not what Tom had expected.  \nThe training was boring, non enthusiasic, and as barebones as you could get.\n  "
+                    "But still it was better than before, but not by much.")
+                print("Tom was getting more and more disollusioned by military life, sure it gave him a paycheck,\n"
+                      "But he was still felling unfulfilled.  Then one day his squad leader talked to him.\n"
+                      "He saw Tom's struggle all too often, so he offered him three choices - \n"
+                      "1 - Change jobs, 2 - change services, 3 - get out after this enlistment.")
+
+        choice = int(input())
+        if choice == 1 or choice == 2:
+                print("The transition was not as bad, but the readjustment part was the hardest.\n"
+                        "But he acclimated as most service members do, also starting a family.\n"
+                        "Tom with his new wife settle into family life and discuss their future\n")
+                print("But just as the cloud got higher, he got orders, this time for combat\n"
+                        "This wasn't like last time, he was married now, and on the same day the \n"
+                        "orders came, another surprise hit- he's about to be a father.")
+                print("1 - Fight with determination  2 - Fight with fear.")
+                choice = int(input())
+                if choice == 1:
+                    print("  This deployment was not as bad as expected, getting stationed on a base.\n"
+                          "He did his tour of duty, fairly unscathed and was greeted by a new sight.\n"
+                          "His child, a daughter, was waiting for him\n"
+                          "The rest of his career went on uneventful after that.\n"
+                          "Now he's older, wiser, and happier than ever before.")
+                else:
+                    print("This deployment was rough, but it was almost over\n"
+                          "This was his last patrol before handover to the locals.\n"
+                          "Tom was looking at the picture he carried of his wife and newborn.\n"
+                          "The last thing he heard was the bang of the roadside bomb\n"
+                          "The last thing he saw was the blood covering his family photo.")
+        else:
+                print("Tom's time in the Military was short lived.  He had a choice to stay in,\n"
+                      "but felt he needed to do something else.  He tried other jobs.\n"
+                        "and every job was just as boring and as unfulfilled as the last\n")
+    else:
+        print("  Tom had his usual look on his face of shame and despair as he walked to get the cheapest malt liquor.\n"  
+          "As he goes and pays, he sees that the store needs a worker.\n Tom sees he has nothing to lose and asks to apply.")
+        print("Tom has the usual process of interview, but he knows there are not a lot of people wanting to do this job so he"
+          "gets it with not much difficulty")
+        print("Only a few days in Tom is not happy about the job, he starts to daydream about all of his alternatives.\n"
+          "1 - Go back to the recruiter, 2 - clean out the register and run, 3 - suck it up and keep working and find something better.")
+        print("Choose 1, 2, or 3")
+
+
+        choice = int(input())
+
+        if choice == 1:
+
+            print("  Tom has a change of heart and goes into the recruiters office the next day, jumps at the chance to do"
+              "something more worthwhile.\n  All the while doing this he remembers what he saw on tv, and his resolve hardened.")
+
+
+            #def goto(line):
+                #line = 18
+                #print(goto(line))
+
+        else:
+                print("  Tom was daydreaming as usual, while the thought of cleaning out the register popped in his head.\n  Just as"
+                        " he was about to grab the cash and run, two other guys come in and hold up the liquor store.\n  they do the usual"
+                        "theme of robbing the register, but one of the robbers thinks he is going too slow, cocking the shotgun he's carrying.\n"
+                        "  At this moment Tom thought, 'I should have gone to the recruiter, shit' followed by a bang.\n  "
+                        "YOU ARE DEAD")
+
+
+else:
+        print("play the game anyway....Please")
